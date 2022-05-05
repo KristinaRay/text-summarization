@@ -1,0 +1,11 @@
+torch
+numpy
+pandas
+matplotlib
+nltk
+tqdm
+rouge
+youtokentome
+scikit-learn
+transformers
+regex
