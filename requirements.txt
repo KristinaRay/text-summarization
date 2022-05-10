@@ -9,3 +9,4 @@ youtokentome
 scikit-learn
 transformers
 regex
+kaggle
