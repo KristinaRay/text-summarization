@@ -9,6 +9,17 @@ git clone https://github.com/KristinaRay/text-summarization.git
 cd text-summarization
 ```
 
+## Demo
+
+To start Flask server locally run
+
+```
+python demo/app.py --model_dir <model_path> \
+                   --tokenizer_dir <BPE_model_path> \
+                   --host <host> \
+                   --port <port>
+```
+
 ## Dependencies
 
 Install dependencies by running
