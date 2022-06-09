@@ -64,7 +64,7 @@ def make_app(model, tokenizer, title) -> Flask:
 
     return app
 
-def main(model_dir, tokenizer_dir,  title, host, port): #, include_package):
+def main(model_dir, tokenizer_dir,  title, host, port):
   
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -90,7 +90,7 @@ def main(model_dir, tokenizer_dir,  title, host, port): #, include_package):
 if __name__ == "__main__":
    
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_dir", type=str, default="./model.pt", help="directory with all model archives") #required=True, 
+    parser.add_argument("--model_dir", type=str, default="./model.pt", help="directory with all model archives") 
     parser.add_argument('--tokenizer_dir', type=str, default="./BPE_model.bin",  help='BPE tokenizer directory') 
     parser.add_argument("--title", type=str, help="change the default page title", default="Extractive Text Summarization")
     parser.add_argument("--host", type=str, default="127.0.0.1", help="interface to serve the demo on")
