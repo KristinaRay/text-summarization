@@ -1,4 +1,4 @@
-# Text Summarization
+# Extractive Text Summarization
 
 Clone the project using the command line
 
