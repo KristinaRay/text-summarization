@@ -1,5 +1,10 @@
 # Extractive Text Summarization
 
+This is a PyTorch implementation of the paper [SummaRuNNer: A Recurrent Neural Network based Sequence Model for Extractive Summarization of Documents](https://arxiv.org/pdf/1611.04230.pdf)
+
+
+## Demo
+
 Clone the project using the command line
 
 ```
@@ -7,9 +12,7 @@ git clone https://github.com/KristinaRay/text-summarization.git
 ```
 ```
 cd text-summarization
-```
-
-## Demo
+``` 
 
 To start Flask server locally run
 
